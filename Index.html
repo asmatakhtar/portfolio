@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asmat Buneri — Python & Web Developer</title>
+  <meta name="description" content="Portfolio of Asmat Buneri — Python Developer, AI Enthusiast, and Problem Solver from Buner, KP, Pakistan." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Noise Overlay -->
+  <div class="noise-overlay"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-text">Asmat</span>
+        <span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+        <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+      <a href="mailto:asmatBuneri@example.com" class="nav-cta">Hire Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-layout">
+
+        <!-- LEFT: Text Column -->
+        <div class="hero-text-col">
+          <div class="hero-badge reveal-item">
+            <span class="badge-dot"></span>
+            Available for freelance &amp; collaboration
+          </div>
+          <h1 class="hero-name reveal-item">
+            <span class="name-line">Asmat</span>
+            <span class="name-line accent-name">Buneri</span>
+          </h1>
+          <div class="hero-title reveal-item">
+            <span class="static-title">Python &amp; Web Developer |&nbsp;</span>
+            <span class="typewriter-wrap">
+              <span class="typewriter" id="typewriter"></span>
+              <span class="cursor-blink">|</span>
+            </span>
+          </div>
+          <div class="hero-location reveal-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Buner, KP, Pakistan
+          </div>
+          <p class="hero-tagline reveal-item">
+            Crafting powerful desktop utilities, automation software,<br />
+            and exploring intelligent AI solutions with <em>Python</em> and modern web tech.
+          </p>
+          <div class="hero-actions reveal-item">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Work</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+          <div class="hero-stats reveal-item">
+            <div class="stat">
+              <span class="stat-number">3+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Languages</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-number">∞</span>
+              <span class="stat-label">Curiosity</span>
+            </div>
+          </div>
+        </div><!-- end hero-text-col -->
+
+        <!-- Profile Photo -->
+        <div class="hero-photo-col reveal-item">
+          <div class="profile-photo-wrap">
+            <div class="profile-ring"></div>
+            <div class="profile-ring ring-2"></div>
+            <div class="profile-img-container">
+              <!-- ✏️ Replace src with your photo: src="images/asmat.jpg" -->
+              <img
+                src="images/asmat.JPG"
+                alt="Asmat Buneri"
+                class="profile-img"
+              />
+              <div class="profile-img-overlay"></div>
+            </div>
+            <div class="photo-badge photo-badge-1">
+              <span class="badge-icon">🐍</span>
+              <span>Python Dev</span>
+            </div>
+            <div class="photo-badge photo-badge-2">
+              <span class="badge-icon">🤖</span>
+              <span>AI Builder</span>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- end hero-layout -->
+    </div><!-- end hero-content -->
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About Strip -->
+  <section class="about-strip" id="about">
+    <div class="container">
+      <div class="about-grid reveal-item">
+        <div class="about-text">
+          <div class="section-label">About Me</div>
+          <h2 class="section-title">Building at the intersection of <em>automation</em> and <em>intelligence</em></h2>
+          <p>I'm a Python developer and aspiring AI & Data Scientist based in Buner, KP. I specialize in building practical desktop tools, automation systems, and GUI applications — with a growing passion for data-driven and AI-powered solutions.</p>
+          <p>My work focuses on transforming complex challenges into elegant, efficient software. Whether it's a voice assistant, a banking interface, or a web scraping engine — I build things that work beautifully.</p>
+        </div>
+        <div class="about-visual">
+          <div class="code-window">
+            <div class="window-bar">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="window-title">asmat.py</span>
+            </div>
+            <pre class="code-content"><code><span class="code-keyword">class</span> <span class="code-class">AsmatBuneri</span>:
+    <span class="code-keyword">def</span> <span class="code-fn">__init__</span>(self):
+        self.name = <span class="code-str">"Asmat Buneri"</span>
+        self.role = <span class="code-str">"Python Developer"</span>
+        self.location = <span class="code-str">"Buner, KP 🇵🇰"</span>
+        self.skills = [
+            <span class="code-str">"Python"</span>, <span class="code-str">"AI/ML"</span>,
+            <span class="code-str">"Web Dev"</span>, <span class="code-str">"Automation"</span>
+        ]
+        self.open_to_work = <span class="code-keyword">True</span>
+
+    <span class="code-keyword">def</span> <span class="code-fn">get_coffee</span>(self) <span class="code-keyword">-></span> <span class="code-str">"Code"</span>:
+        <span class="code-keyword">return</span> <span class="code-str">"Building the future ☕"</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills-section" id="skills">
+    <div class="container">
+      <div class="section-header reveal-item">
+        <div class="section-label">Technical Arsenal</div>
+        <h2 class="section-title">Skills &amp; Technologies</h2>
+        <p class="section-subtitle">A curated stack of tools I use to build powerful, intelligent software.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category reveal-item" data-delay="0">
+          <div class="skill-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3 class="skill-cat-title">Core Languages</h3>
+          <div class="skill-tags">
+            <span class="tag tag-primary">Python</span>
+            <span class="tag tag-primary">JavaScript</span>
+            <span class="tag tag-primary">HTML5</span>
+            <span class="tag tag-primary">CSS3</span>
+            <span class="tag tag-primary">SQL</span>
+          </div>
+        </div>
+        <div class="skill-category reveal-item" data-delay="1">
+          <div class="skill-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3 class="skill-cat-title">GUI &amp; Frameworks</h3>
+          <div class="skill-tags">
+            <span class="tag tag-purple">CustomTkinter</span>
+            <span class="tag tag-purple">Tkinter</span>
+            <span class="tag tag-purple">Node.js</span>
+          </div>
+        </div>
+        <div class="skill-category reveal-item" data-delay="2">
+          <div class="skill-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+          </div>
+          <h3 class="skill-cat-title">Tools &amp; DB</h3>
+          <div class="skill-tags">
+            <span class="tag tag-cyan">SQLite</span>
+            <span class="tag tag-cyan">Git</span>
+            <span class="tag tag-cyan">GitHub</span>
+            <span class="tag tag-cyan">VS Code</span>
+          </div>
+        </div>
+        <div class="skill-category reveal-item" data-delay="3">
+          <div class="skill-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+          </div>
+          <h3 class="skill-cat-title">Domain Expertise</h3>
+          <div class="skill-tags">
+            <span class="tag tag-glow">Automation</span>
+            <span class="tag tag-glow">Web Scraping</span>
+            <span class="tag tag-glow">AI &amp; Data Processing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects-section" id="projects">
+    <div class="container">
+      <div class="section-header reveal-item">
+        <div class="section-label">Portfolio</div>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">Real-world applications built with precision and purpose.</p>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card reveal-item" data-delay="0">
+          <div class="project-card-inner">
+            <!-- ✏️ Replace src with your project screenshot: src="images/jarvis.jpg" -->
+            <div class="project-img-wrap">
+              <img src="images/jarvis.jpg" alt="Jarvis AI" class="project-img" />
+              <div class="project-img-overlay"></div>
+            </div>
+            <div class="project-body">
+            <div class="project-header">
+              <div class="project-icon-wrap">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20z"/><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="3" fill="currentColor" opacity="0.3"/></svg>
+              </div>
+              <div class="project-links">
+                <a href="#" class="icon-link" aria-label="GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+                <a href="#" class="icon-link" aria-label="Live Demo">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+            <div class="project-number">01</div>
+            <h3 class="project-title">Jarvis AI</h3>
+            <p class="project-desc">arvis AI is an intelligent, voice-activated desktop assistant built in Python to automate daily tasks and control system functions. Integrating speech recognition and natural language processing, it delivers a responsive, sci-fi-inspired AI experience.</p>
+            <div class="project-stack">
+              <span class="stack-tag">Python</span>
+              <span class="stack-tag">Speech Recognition</span>
+              <span class="stack-tag">OS Automation</span>
+            </div>
+            <div class="card-glow"></div>
+            </div><!-- end project-body -->
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card reveal-item" data-delay="1">
+          <div class="project-card-inner">
+            <!-- ✏️ Replace src with your project screenshot: src="images/ultragrab.jpg" -->
+            <div class="project-img-wrap">
+              <img src="images/ultragrab.jpg" alt="UltraGrab Pro" class="project-img" />
+              <div class="project-img-overlay"></div>
+            </div>
+            <div class="project-body">
+            <div class="project-header">
+              <div class="project-icon-wrap">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              </div>
+              <div class="project-links">
+                <a href="#" class="icon-link" aria-label="GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+                <a href="#" class="icon-link" aria-label="Live Demo">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+            <div class="project-number">02</div>
+            <h3 class="project-title">UltraGrab Pro</h3>
+            <p class="project-desc">UltraGrab Pro is a high-performance web utility designed for fast and seamless video downloads across multiple platforms. Built with a focus on speed and user experience, it provides an intuitive interface for efficient media saving.</p>
+            <div class="project-stack">
+              <span class="stack-tag">Python</span>
+              <span class="stack-tag">Web Scraping</span>
+              <span class="stack-tag">Web Deployment</span>
+            </div>
+            <div class="card-glow"></div>
+            </div><!-- end project-body -->
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card reveal-item" data-delay="2">
+          <div class="project-card-inner">
+            <!-- ✏️ Replace src with your project screenshot: src="images/nexa.jpg" -->
+            <div class="project-img-wrap">
+              <img src="images/nexa.jpg" alt="Nexa Banking App" class="project-img" />
+              <div class="project-img-overlay"></div>
+            </div>
+            <div class="project-body">
+            <div class="project-header">
+              <div class="project-icon-wrap">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+              </div>
+              <div class="project-links">
+                <a href="#" class="icon-link" aria-label="GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+                <a href="#" class="icon-link" aria-label="Live Demo">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+            </div>
+            <div class="project-number">03</div>
+            <h3 class="project-title">Nexa Bank </h3>
+            <p class="project-desc"> Nexa is a professional, desktop-based banking management system built with a secure and responsive Python GUI. Integrated with an SQLite database, it features full user authentication, account management, and real-time transaction tracking.</p>
+            <div class="project-stack">
+              <span class="stack-tag">Python</span>
+              <span class="stack-tag">CustomTkinter</span>
+              <span class="stack-tag">SQLite</span>
+            </div>
+            <div class="card-glow"></div>
+            </div><!-- end project-body -->
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+ <!-- Contact Section -->
+<section class="contact-section" id="contact">
+  <div class="container">
+    <div class="contact-inner reveal-item">
+      <div class="contact-orb"></div>
+      <div class="section-label">Let's Connect</div>
+      <h2 class="contact-title">Got a project in mind?<br /><em>Let's build it together.</em></h2>
+      <p class="contact-subtitle">I'm open to freelance opportunities, collaborations, and interesting conversations about Python, AI, and automation.</p>
+      
+      <!-- Big Mail Button -->
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mr.asmatbuneri@gmail.com&su=Project%20Inquiry" target="_blank" rel="noopener" class="btn btn-primary btn-large">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <span>Get In Touch</span>
+      </a>
+      
+      <div class="social-links">
+        <!-- GitHub Link (Working Perfectly) -->
+        <a href="https://github.com/asmatakhtar" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub
+        </a>
+        
+        <!-- FIXED: LinkedIn Link (Added https://) -->
+        <a href="https://www.linkedin.com/in/asmat-buneri-400a3438a" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+        
+        <!-- Email Link -->
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mr.asmatbuneri@gmail.com&su=Hello%20Asmat" target="_blank" rel="noopener" class="social-link" aria-label="Email">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Email
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo">&lt; Asmat /&gt;</span>
+        <p class="footer-copy">© 2025 Asmat Buneri. Crafted with passion in Pakistan.</p>
+        <a href="#hero" class="back-to-top" aria-label="Back to top">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
