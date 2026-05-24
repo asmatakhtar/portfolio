@@ -410,10 +410,10 @@ img, svg { display: block; }
 }
 
 .profile-photo-wrap {
-  position: relative;
-  width: 340px;
-  height: 340px;
-  flex-shrink: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;    
+   object-position: center;
 }
 
 .profile-ring {
